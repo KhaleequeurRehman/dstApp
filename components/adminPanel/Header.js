@@ -15,7 +15,8 @@ function Header() {
 	const router = useRouter()
 
 	const logoutHandler = async () => {
-		const res_data = await  axios.get('http://localhost:8080/api/v1/logout')
+		// const res_data = await  axios.get('http://localhost:8080/api/v1/logout')
+		const res_data = await  axios.get('https://dstbackend.herokuapp.com/api/v1/logout')
 				if(res_data.data.success === true){
 					Swal.fire({
 						title: 'Success!',
@@ -28,6 +29,14 @@ function Header() {
 					setTimeout(()=>{
 						router.push("/")
 					},500) 
+				}
+				else{
+					Swal.fire({
+						title: 'Error!',
+						text: 'Failed to logged out',
+						icon: 'error',
+						confirmButtonText: 'Close'
+					  })
 				}
 	}
 
