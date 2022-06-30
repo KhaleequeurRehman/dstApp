@@ -2,8 +2,6 @@ import Image from "next/image"
 import Head from "next/head";
 import styles from '../styles/Demo.module.css'
 import img1 from '../public/images/Web Assets-25.png';
-import { API } from 'aws-amplify'
-import { createCandidate } from '../src/graphql/mutations'
 import { useState } from "react";
 
 import Header from '../components/layout/Header'
@@ -29,21 +27,21 @@ export default function Demo() {
 		const { fname, lname, org, size, state, phone, email, info } = formState
 		if (fname && email && phone && org && size) {
 		  try {
-			await API.graphql({
-				query: createCandidate,
-				variables: {
-				  input: {
-					fname,
-					lname,
-					email,
-					phone,
-					org,
-					size,
-					state,
-					info
-				  },
-				},
-			  })
+			// await API.graphql({
+			// 	query: createCandidate,
+			// 	variables: {
+			// 	  input: {
+			// 		fname,
+			// 		lname,
+			// 		email,
+			// 		phone,
+			// 		org,
+			// 		size,
+			// 		state,
+			// 		info
+			// 	  },
+			// 	},
+			//   })
 	
 			  setResponseMessage('Submission sent successfully')
 		  } catch (e) {

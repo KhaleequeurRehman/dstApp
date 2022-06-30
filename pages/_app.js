@@ -3,10 +3,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
 
-// import Amplify from '@aws-amplify/core'
-// import config from '../src/aws-exports'
-// Amplify.configure(config)
-
 import { CommonFlagContext} from "../components/contexts/commonContext"
 import { useState } from 'react'
 
