@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "../../styles/Footer.module.css"
 
-import linkedin from "../../public/images/Web Assets-13.png"
-import logo from "../../public/images/logo-footer.png"
+import linkedin from "../../public/Web Assets-13.png"
+import logo from "../../public/logo-footer.png"
 
 export default function Footer() {
 	return (

@@ -15,7 +15,7 @@ import {
 	faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
-import logo from "../../public/images/logo.png"
+import logo from "../../public/logo.png"
 import { CommonFlagContext } from "../contexts/commonContext";
 
 function LeftNavbar() {

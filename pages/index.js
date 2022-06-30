@@ -27,27 +27,27 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 //   img12 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-19_kimckw.png",
 // }
 
-import img1 from '../public/images/Web Assets-21.png'
-import img2 from '../public/images/Web Assets-01.png'
-import img3 from '../public/images/Web Assets-03.png'
+import img1 from '../public/Web Assets-21.png'
+import img2 from '../public/Web Assets-01.png'
+import img3 from '../public/Web Assets-03.png'
 
 //Section 3
-import img4 from '../public/images/Web Assets-14.png'
-import img5 from '../public/images/Web Assets-15.png'
-import img6 from '../public/images/Web Assets-16.png'
+import img4 from '../public/Web Assets-14.png'
+import img5 from '../public/Web Assets-15.png'
+import img6 from '../public/Web Assets-16.png'
 
 // //Section 4 
-import img10 from '../public/images/Web Assets-17.png'
+import img10 from '../public/Web Assets-17.png'
 
 
 // //Section 6
-import img11 from '../public/images/Web Assets-18.png'
-import img12 from '../public/images/Web Assets-19.png'
+import img11 from '../public/Web Assets-18.png'
+import img12 from '../public/Web Assets-19.png'
 
 //Section 7
-import img7 from '../public/images/Course-04.png'
-import img8 from '../public/images/Course-12.png'
-import img9 from '../public/images/Web Assets-06.png'
+import img7 from '../public/Course-04.png'
+import img8 from '../public/Course-12.png'
+import img9 from '../public/Web Assets-06.png'
 import { useState } from 'react'
 
 export default function Home() {

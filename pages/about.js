@@ -16,16 +16,16 @@ import DesktopTimeline from "../components/about/DesktopTimeline";
 import MobileTimeline from "../components/about/MobileTimeline";
 
 //Images
-import img1 from '../public/images/Web Assets-27.png';
-import img2 from '../public/images/web-assets-28.png';
+import img1 from '../public/Web Assets-27.png';
+import img2 from '../public/web-assets-28.png';
 
-import img6 from '../public/images/Web Assets-26.png'
-import img7 from '../public/images/Web Assets-01.png'
-import img8 from '../public/images/Course-04.png'
-import img9 from '../public/images/Course-12.png'
-import img10 from '../public/images/Web Assets-06.png'
-import img11 from '../public/images/Web Assets-25.png';
-import img12 from '../public/images/Our Journey-29.png';
+import img6 from '../public/Web Assets-26.png'
+import img7 from '../public/Web Assets-01.png'
+import img8 from '../public/Course-04.png'
+import img9 from '../public/Course-12.png'
+import img10 from '../public/Web Assets-06.png'
+import img11 from '../public/Web Assets-25.png';
+import img12 from '../public/Our Journey-29.png';
 
 export default function About() {
 

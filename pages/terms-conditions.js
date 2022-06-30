@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Head from "next/head"
-import img1 from '../public/images/Our Journey Michael.png';
+import img1 from '../public/Our Journey Michael.png';
 import styles from '../styles/Terms.module.css'
 
 import Header from '../components/layout/Header'

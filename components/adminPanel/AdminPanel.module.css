@@ -193,6 +193,7 @@ content of dashboard start */
     
     .contentcontainerfirst{
         width: calc(100% - 70px);
+        margin-left:70px;
     }
     .contentcontainer{
         width: calc(100% - 70px);

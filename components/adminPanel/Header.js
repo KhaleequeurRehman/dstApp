@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 import {useRouter} from "next/router"
 import Image from "next/image";
 import styles from "./AdminPanel.module.css";
-import waterMarkImage from '../../public/images/watermark.png'
+import waterMarkImage from '../../public/watermark.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faSignOutAlt} from "@fortawesome/free-solid-svg-icons";
 import { CommonFlagContext } from "../contexts/commonContext";

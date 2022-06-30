@@ -83,7 +83,7 @@ function Content() {
 				</div>
 			</div>
 			{/* chart started  */}
-			<div className={styles.charts}>
+			<div className={styles.charts} style={{display: "none"}}>
 				<div className={styles.bar}>
 					<h2>Sales</h2>
 					{/* <Line data={data} width={400} height={400} /> */}

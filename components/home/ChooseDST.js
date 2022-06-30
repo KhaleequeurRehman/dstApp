@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import mainImg from "../../public/images/Web Assets-20.png"
+import mainImg from "../../public/Web Assets-20.png"
 
 import Container from "../layout/Container"
 import BookButton from "../BookButton"

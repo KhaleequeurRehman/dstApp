@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Head from "next/head";
 import styles from '../styles/Demo2.module.css'
-import img1 from '../public/images/Web Assets-25.png';
 import { useContext, useState } from "react";
 import Link from "next/link";
 import axios from "axios";
