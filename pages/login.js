@@ -30,7 +30,8 @@ export default function Login() {
 		if (emailOrUser && password) {
 		  try {
 			console.log("formState login => ", formState)
-			const res_data = await  axios.post('http://localhost:8080/api/v1/login',
+			// const res_data = await  axios.post('http://localhost:8080/api/v1/login',
+			const res_data = await  axios.post('https://dstbackend.herokuapp.com/api/v1/login',
 				{ password, emailOrUser})
 				console.log("res_data => ", res_data)
 				if(res_data.data.success === true){

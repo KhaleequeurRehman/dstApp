@@ -12,6 +12,21 @@ import Footer from '../components/layout/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
+// const imagesurl = {
+//   img1 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-20_p75hhx.png",
+//   img2 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591961/dst/images/Web_Assets-01_oye9rq.png",
+//   img3 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591964/dst/images/Web_Assets-03_uxuwu0.png",
+//   img4 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591963/dst/images/Web_Assets-14_y9ljpw.png",
+//   img5 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591963/dst/images/Web_Assets-15_mcfkdu.png",
+//   img6 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-16_ra9yfm.png",
+//   img7: "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591957/dst/images/Course-04_mkkyyt.png",
+//   img8: "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591957/dst/images/Course-12_kpdmtk.png",
+//   img9: "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591961/dst/images/Web_Assets-06_ns1ayr.png",
+//   img10 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-17_srkk7p.png",
+//   img11 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-18_afynqw.png",
+//   img12 : "https://res.cloudinary.com/ddgrhplyy/image/upload/v1656591965/dst/images/Web_Assets-19_kimckw.png",
+// }
+
 import img1 from '../public/images/Web Assets-21.png'
 import img2 from '../public/images/Web Assets-01.png'
 import img3 from '../public/images/Web Assets-03.png'
@@ -21,11 +36,11 @@ import img4 from '../public/images/Web Assets-14.png'
 import img5 from '../public/images/Web Assets-15.png'
 import img6 from '../public/images/Web Assets-16.png'
 
-//Section 4 
+// //Section 4 
 import img10 from '../public/images/Web Assets-17.png'
 
 
-//Section 6
+// //Section 6
 import img11 from '../public/images/Web Assets-18.png'
 import img12 from '../public/images/Web Assets-19.png'
 

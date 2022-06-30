@@ -28,7 +28,8 @@ export default function Signup() {
 		if (email && password && firstName && lastName && userName) {
 		  try {
 				console.log("formState signup => ", formState)
-				const res_data = await  axios.post('http://localhost:8080/api/v1/register',
+				// const res_data = await  axios.post('http://localhost:8080/api/v1/register',
+				const res_data = await  axios.post('https://dstbackend.herokuapp.com/api/v1/register',
 				{password, email , userName, firstName, lastName})
 				console.log("res_data => ", res_data)
 				if(res_data.data.success === true){
