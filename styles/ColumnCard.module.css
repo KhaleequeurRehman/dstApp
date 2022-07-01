@@ -49,11 +49,13 @@
 		padding: 1rem;
 	}
 	.container h2{
+		margin-top: 15px;
 		font-size: 1.2rem;
 	}
 	.container p{
-		margin: 10px 0;
+		margin: 15px 0;
 		font-size: 0.82rem;
+		height: auto;
 	}
 	.moreInfo{
 		font-size: 1rem;

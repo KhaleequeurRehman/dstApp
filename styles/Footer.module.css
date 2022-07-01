@@ -55,5 +55,6 @@
 		grid-auto-flow: column;
 		grid-gap: 1rem;
 		align-items: center;
+		margin-top: 15px;
 	}
 }

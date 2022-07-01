@@ -633,7 +633,7 @@
     }
     .section1 > div:nth-child(2) p {
         font-size: 0.88rem;
-        padding: 0 0 10px 0;
+        padding: 10px 0 20px 0;
     }
     .section1 > div:nth-child(2) p + a {
         font-size: 1rem;
@@ -691,7 +691,7 @@
 
     .section2 > div:nth-child(3) p{
         font-size: 0.88rem;
-        margin: 15px 0 0 0;
+        margin: 40px 0 20px 0;
     }
 
     /** SECTION 3 **/
@@ -714,8 +714,12 @@
     .section3 > div:nth-child(1) .img + p{
         font-size: 0.88rem;
     }
+    .section3 > div:nth-child(2) div{
+        margin: 10px 0 20px 0;
+    }
     .section3 > div:nth-child(2) p{
         font-size: 0.88rem;
+        margin: 20px 0 10px 0;
     }
     .section3 > div:nth-child(2) a{
         font-size: 1rem;
@@ -779,9 +783,17 @@
         font-size: 0.88rem;
     }
 
+    .section5 > div:nth-child(1) > p{
+        margin: 20px 0;
+    }
+
     .section5 > div:nth-child(2)> div {
         max-width: 320px;
         justify-self: center;
+    }
+
+    .section5 > div:nth-child(2) {
+        margin: 40px 0 10px 0
     }
 
     .section5 > div:nth-child(2) a {
@@ -789,7 +801,6 @@
         font-size: 1rem;
         grid-row-gap: 2rem;
         row-gap: 2rem;
-
     }
     .section5 > a:last-child {
        position: static;
@@ -850,6 +861,7 @@
     }
     .section8 p{
         font-size: 0.88rem;
+        margin: 40px 0 20px 0;
     }
 
     .section8 > div:nth-child(1) {

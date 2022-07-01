@@ -407,12 +407,15 @@
     }
     .section3 div:nth-child(1) h2{
         font-size: 1.2rem;
+        margin: 10px 0 15px 0;
     }
     .section3 div:nth-child(1) h3{
         font-size: 1rem;
+        margin: 10px 0;
     }
     .section3 div:nth-child(1) p{
         font-size:0.88rem;
+        margin: 10px 0 20px 0;
     }
     
     .section3 div:nth-child(2){

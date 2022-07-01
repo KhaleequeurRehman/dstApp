@@ -130,7 +130,7 @@
 }
 
 .section3row1 > div:nth-child(2) > div:nth-child(2) p{
-  padding-bottom: 2rem;
+  padding-bottom: 1.4rem;
 }
 
 .section3row1 > div:nth-child(2) > div:nth-child(2) a {
@@ -489,7 +489,7 @@
 @media only screen and (max-width: 768px) {
 
   .section1 {
-    padding: 0rem 2rem 8rem 2rem;
+    /* padding: 0rem 2rem 8rem 2rem; */
   }
   .section1 .twoColumn h1 {
 		font-size: 1.8rem;
@@ -578,6 +578,7 @@
 
   .section3row1 > div:nth-child(2) > div:nth-child(2) p {
     font-size: 0.82rem;
+    margin: 20px 0 0 0;
   }
   .section3row1 > div:nth-child(2) > div:nth-child(2) a {
     font-size: 1rem;
@@ -599,6 +600,7 @@
 
   .section3row2 > div:nth-child(2) div p {
     font-size: 0.82rem;
+    margin: 40px 0 20px 0;
   }
 
   .section3row2 > div:nth-child(2) div a {
@@ -625,6 +627,9 @@
   }
   .section5 div:nth-child(1) p{
     font-size: 0.82rem;
+  }
+  .section5 div:nth-child(1) div p:nth-child(3){
+    margin: 15px 0 10px 0;
   }
   .section5 div:nth-child(1) a{
     font-size: 1rem;
@@ -671,6 +676,9 @@
 
   .section6 div:nth-child(2) p {
     font-size: 1rem;
+  }
+  .section6 div:nth-child(2) > .mainHeading {
+    margin-top: 30px;
   }
 
   .section6 div:nth-child(2) a {
