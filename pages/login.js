@@ -76,7 +76,7 @@ export default function Login() {
 
 					<label htmlFor="emailOrUser">Email/UserName*</label>
 					<input type="text" id="emailOrUser" name="emailOrUser" value={formState.emailOrUser} required
-					placeholder="email or username..."
+					// placeholder="Email/Username"
 					onChange={(e) =>
 						setFormState({ ...formState, emailOrUser: e.target.value })
 					}
@@ -84,7 +84,7 @@ export default function Login() {
 
 					<label htmlFor="password">Password*</label>
 					<input type="password" id="password" name="password" value={formState.password} required
-					placeholder="password..."
+					// placeholder="Password"
 					onChange={(e) =>
 						setFormState({ ...formState, password: e.target.value })
 					}

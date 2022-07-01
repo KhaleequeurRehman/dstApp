@@ -11,7 +11,7 @@
 }
 
 .section1 > a:last-child {
-    position: absolute;
+    /* position: absolute; */
     justify-self: center;
     align-self: flex-end;
 }
@@ -56,6 +56,7 @@
     align-items: center;;
     padding: 3rem 0;
 }
+
 
 .section2 p {
     color: var(--secondary-blue);
@@ -112,6 +113,9 @@
 .section3 .byline2{
     font-size: 0.7rem;
     margin-bottom: 2rem;
+}
+.section3 > div:nth-child(2)> p:nth-child(2) {
+    margin-top: 10px;
 }
 
 .section3 > div:nth-child(2) > p:nth-child(3){
@@ -431,6 +435,10 @@
     }
 
     /** SECTION 1 **/
+    .section1 {
+        padding: 2rem 1rem 8rem 1rem;
+    }
+    
     .section1 > div:nth-child(1) p, .section1 > div:nth-child(1) p span {
        font-size: 1.6rem !important;
     }

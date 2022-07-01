@@ -71,7 +71,7 @@ export default function Signup() {
 					
 					<label htmlFor="firstName">First Name*</label>
 					<input type="text" id="firstName" name="firstName" value={formState.firstName} required
-					placeholder="firstname..."
+					// placeholder="First Name"
 					onChange={(e) =>
 						setFormState({ ...formState, firstName: e.target.value })
 					}
@@ -79,15 +79,15 @@ export default function Signup() {
 
 					<label htmlFor="lastName">Last Name*</label>
 					<input type="text" id="lastName" name="lastName" value={formState.lastName} required
-					placeholder="lastname..."
+					// placeholder="Last Name"
 					onChange={(e) =>
 						setFormState({ ...formState, lastName: e.target.value })
 					}
 					/>
 
-					<label htmlFor="userName">userName*</label>
+					<label htmlFor="userName">User Name*</label>
 					<input type="text" id="userName" name="userName" value={formState.userName} required
-					placeholder="username..."
+					// placeholder="UserName"
 					onChange={(e) =>
 						setFormState({ ...formState, userName: e.target.value })
 					}
@@ -95,7 +95,7 @@ export default function Signup() {
 
 					<label htmlFor="email">Email*</label>
 					<input type="email" id="email" name="email" value={formState.email} required
-					placeholder="email..."
+					// placeholder="Email"
 					onChange={(e) =>
 						setFormState({ ...formState, email: e.target.value })
 					}
@@ -103,7 +103,7 @@ export default function Signup() {
 
 					<label htmlFor="password">Password*</label>
 					<input type="password" id="password" name="password" value={formState.password} required
-					placeholder="password..."
+					// placeholder="Password"
 					onChange={(e) =>
 						setFormState({ ...formState, password: e.target.value })
 					}
