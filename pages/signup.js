@@ -69,7 +69,7 @@ export default function Signup() {
 				<h1>Signup</h1>
 				<form className={styles.form} onSubmit={handleFormSubmit}>
 					
-					<label htmlFor="firstName">First Name*</label>
+					<label htmlFor="firstName">First name*</label>
 					<input type="text" id="firstName" name="firstName" value={formState.firstName} required
 					// placeholder="First Name"
 					onChange={(e) =>
@@ -77,7 +77,7 @@ export default function Signup() {
 					}
 					/>
 
-					<label htmlFor="lastName">Last Name*</label>
+					<label htmlFor="lastName">Last name*</label>
 					<input type="text" id="lastName" name="lastName" value={formState.lastName} required
 					// placeholder="Last Name"
 					onChange={(e) =>
@@ -85,7 +85,7 @@ export default function Signup() {
 					}
 					/>
 
-					<label htmlFor="userName">User Name*</label>
+					<label htmlFor="userName">User name*</label>
 					<input type="text" id="userName" name="userName" value={formState.userName} required
 					// placeholder="UserName"
 					onChange={(e) =>

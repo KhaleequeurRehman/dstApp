@@ -74,7 +74,7 @@ export default function Login() {
 				<form className={styles.form} onSubmit={handleFormSubmit}>
 				
 
-					<label htmlFor="emailOrUser">Email/UserName*</label>
+					<label htmlFor="emailOrUser">Email/Username*</label>
 					<input type="text" id="emailOrUser" name="emailOrUser" value={formState.emailOrUser} required
 					// placeholder="Email/Username"
 					onChange={(e) =>
