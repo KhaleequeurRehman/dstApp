@@ -488,16 +488,27 @@
 /* @media only screen and (max-width: 640px) { */
 @media only screen and (max-width: 768px) {
 
+  .section1 {
+    padding: 0rem 2rem 8rem 2rem;
+  }
   .section1 .twoColumn h1 {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
+    margin-bottom: 15px;
 	}
 
-	.section1 .twoColumn li {
-		font-size: 0.82rem;
+	.section1 .twoColumn ul {
+    margin: 20px 0;
+  }
+    .section1 .twoColumn li {
+		font-size: 0.9rem;
 	}
 	.section1 .twoColumn h3 {
 		font-size: 1rem;
+    margin-bottom: 15px;
 	}
+  .section1 .moreInfo{
+    margin: 20px 0 0 0;
+  }
 	.section1 .moreInfo a{
 		font-size: 1rem;
 	}
